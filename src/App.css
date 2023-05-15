@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(102, 22, 76);
+  background: linear-gradient(
+    298deg,
+    rgba(102, 22, 76, 1) 0%,
+    rgba(111, 38, 112, 1) 38%,
+    rgba(100, 149, 237, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.invisible-input {
+  color: white;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.invisible-input::selection {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+.results {
+  background-color: rgba(255, 255, 255, 0.222);
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.footerr {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+button {
+  background-color: rgba(255, 255, 255, 0.222);
+  background-color: rgba(255, 255, 255, 0.222);
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 10px;
+  border: none;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
