@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 const mockList = ["Buy fruits", "read a book", "Take a shower"];
