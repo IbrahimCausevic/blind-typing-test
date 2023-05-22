@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
 
-const mockList = ["Buy fruits", "read a book", "Take a shower"];
-
 class App extends React.Component {
   state = {
     myText: "",
